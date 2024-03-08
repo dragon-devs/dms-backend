@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+pillow = "*"
+drf-nested-routers = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+django-filter = "*"
+psycopg2 = "*"
+python-dotenv = "*"
+
+[dev-packages]
+django-debug-toolbar = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.6"
