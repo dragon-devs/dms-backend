@@ -3,8 +3,6 @@
 core/__init__.py,c\e\ce4f796c5be8947b7ba7705fab2b891600f264e5
 K
 core/migrations/__init__.py,2\f\2f9440d333ffafa2ca433d63945c2458813ded5e
-T
-$staticfiles/admin/img/icon-clock.svg,0\3\0315a190eb6811737e6a626fb96b80ce1e4025ca
 A
 customer/views.py,1\f\1f573f70bcc1069c8314e0a5dad70f594f2e137c
 E
@@ -149,8 +147,6 @@ w
 Gdistribution/migrations/0005_alter_distributionprofile_name_and_more.py,d\b\db233193e52373ae9e45d00a0bb50ea97d465b16
 `
 0distribution/migrations/0002_employeesprofile.py,9\1\91087935e9358a04561a535fd0e0a1f8d6b44dbd
-w
-G.idea/sonarlint/issuestore/0/3/0315a190eb6811737e6a626fb96b80ce1e4025ca,b\b\bbf329d54b4e2e8bf8814cc49b5942d3c64e6c02
 ç
 ]distribution/migrations/0009_alter_companyprofile_email_alter_companyprofile_name_and_more.py,7\a\7ad1babb894382cf36d2a0458d637dc51b3bfdd1
 u
@@ -273,8 +269,6 @@ w
 G.idea/sonarlint/issuestore/4/7/4706701c005a11d84d8ae7731365c7c336e3f466,f\6\f6c2a2a881cb7dacd55739b26a5c9e7d90c8d556
 w
 G.idea/sonarlint/issuestore/1/f/1f1929f60683e58c594f142eb9185ef6b35b4119,9\3\934845727edf7f1f5f7100151b6ccb5e3579c793
-Å
-Q.idea/sonarlint/securityhotspotstore/0/3/0315a190eb6811737e6a626fb96b80ce1e4025ca,f\4\f47fec08eb1b2f8894a0573f7fe3b9c41c4c76e1
 Å
 Q.idea/sonarlint/securityhotspotstore/b/6/b6b0e14274708ab267b76d2ddb4c93cb1f10faf0,4\0\40f6b447ec0fe3627694dba88d7c6d135eb48118
 Å

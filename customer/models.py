@@ -30,12 +30,12 @@ class Area(models.Model):
       return self.name
 
    def clean(self):
-      # Check if an Area with the same name and district already exists
+      # Check if an area with the same name and district already exists
       existing_areas = Area.objects.filter(name=self.name.lower(), district=self.district)
       if self.pk:  # Exclude the current instance if it's being updated
          existing_areas = existing_areas.exclude(pk=self.pk)
       if existing_areas.exists():
-         raise ValidationError('An Area with the same name already exists in this district.')
+         raise ValidationError('An area with the same name already exists in this district.')
 
    def save(self, *args, **kwargs):
       self.clean()  # Run the custom validation
@@ -59,7 +59,10 @@ class Customer(models.Model):
 
    @property
    def address(self):
-      # Build the address based on related objects
+      """
+      Property to dynamically generate the address based on related objects.
+      :return: A string representing the address.
+      """
       address_parts = [self.sub_area.name if self.sub_area else "",
                        self.area.name,
                        self.district.name,
